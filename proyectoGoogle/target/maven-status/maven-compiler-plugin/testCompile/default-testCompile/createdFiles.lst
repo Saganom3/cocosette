@@ -1,4 +1,0 @@
-pages\BasePage.class
-pages\CocosettePage.class
-runner\CocosetteRunner.class
-stepdefs\CocosetteStepsDefs.class
