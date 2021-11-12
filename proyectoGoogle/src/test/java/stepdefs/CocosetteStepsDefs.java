@@ -4,10 +4,10 @@ package stepdefs;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import net.serenitybdd.core.Serenity;
 import pages.CocosettePage;
 
 public class CocosetteStepsDefs {
- /*   @Steps*/
     CocosettePage cocosettepage = new CocosettePage();
 
     @Given("^abrir el navegador y navegar a la url de google$")
@@ -20,6 +20,7 @@ public class CocosetteStepsDefs {
     public void aparezca_la_caja_de_busqueda_ingresar_cocosette() {
         System.out.println("ingresa la palabra cocosette");
         cocosettepage.inputSearch();
+        Serenity.takeScreenshot();
     }
 
     @Then("^validar el precio y rutas de trasmi$")
