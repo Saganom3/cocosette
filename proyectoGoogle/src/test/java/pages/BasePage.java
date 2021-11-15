@@ -1,6 +1,5 @@
 package pages;
 
-import net.serenitybdd.core.Serenity;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -25,6 +24,5 @@ public class BasePage {
     public static void abrenavegador(String url) {
         driver.manage().window().maximize();
         driver.get(url);
-        Serenity.takeScreenshot();
     }
 }

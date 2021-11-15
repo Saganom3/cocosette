@@ -12,14 +12,15 @@ public class CocosettePage extends BasePage {
     }
 
     public void navigateToGoogle(String url) {
+
         abrenavegador(url);
     }
 
     @FindBy(name = "q")
     private WebElement search;
 
-    public void inputSearch() {
-        search.sendKeys("Cocosette");
+    public void inputSearch(String busqueda) {
+        search.sendKeys(busqueda);
     }
 
     public void btnSearch() {

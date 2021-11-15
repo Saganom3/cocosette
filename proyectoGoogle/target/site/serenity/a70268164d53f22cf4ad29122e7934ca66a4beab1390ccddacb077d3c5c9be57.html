@@ -221,7 +221,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-11-2021 22:47</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 15-11-2021 17:15</span>
     <br style="clear:left"/>
 </div>
 
@@ -292,7 +292,7 @@
                                                         <tr>
                                                             <td style="width:95%;" class="toc-title">
                                                                 <a href="#de4288266b3f28d1c716bb967e77f2596f97b60b403506c7003b8584183301b8" title="View scenario details" >Buscar galletas cocosette</a>
-
+                                                                     (3 examples)
 
                                                             </td>
                                                             <td style="width:5%;">
@@ -338,10 +338,22 @@
                                                         </div>
                                                     </div>
                                                     <div class="scenario-docs card-body">
-                                                            <p>Given abrir el navegador y navegar a la url de google</p>
-                                                            <p>When aparezca la caja de busqueda ingresar cocosette</p>
+                                                            <p>Given abrir el navegador y navegar a la url &quot;{url}&quot;</p>
+                                                            <p>When aparezca la caja de busqueda ingresar &quot;{busqueda}&quot;</p>
                                                             <p>Then validar el precio y rutas de trasmi</p>
                                                         <div class="examples">
+                                                            <p><p>Examples:</p>
+<div class='example-table-in-scenario'><table>
+<thead>
+<tr><th>url</th><th>busqueda</th><th></th></tr>
+</thead>
+<tbody>
+<tr><td>https://www.google.com</td><td>cajas</td><td><a href='fc6c39ec319ad1cf4733a1e20dae22895e641d9fbf1a5c19d4200aa329877493.html#beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></td></tr>
+<tr><td>https://www.google.com</td><td>hamburguesas</td><td><a href='fc6c39ec319ad1cf4733a1e20dae22895e641d9fbf1a5c19d4200aa329877493.html#beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></td></tr>
+<tr><td>https://www.google.com</td><td>Dragon ball z</td><td><a href='fc6c39ec319ad1cf4733a1e20dae22895e641d9fbf1a5c19d4200aa329877493.html#beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></td></tr>
+</tbody>
+</table></div>
+</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -363,7 +375,7 @@
                                                 var labels = ['100%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
                                                 // Our series array that contains series objects or in this case series data arrays
 
-                                                var series = [{meta: 'Passing tests (automated)', value: 1}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                var series = [{meta: 'Passing tests (automated)', value: 3}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                 // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                 // as you saw in the previous example
@@ -404,7 +416,7 @@
                                                                         <a href="ecd769b23e6b4a5ae81cc2724210a409e9320f45173b9ceb8aa16fe6d0d031cc.html"><i
                                                                                 class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
                                                                     </td>
-                                                <td class="automated-stats">1</td>
+                                                <td class="automated-stats">3</td>
                                                 <td class="automated-stats">100%</td>
                                             </tr>
                                             <tr>
@@ -459,7 +471,7 @@
                                             </tr>
                                             <tr class="summary-stats">
                                                 <td class="aggregate-result-count">Total</td>
-                                                <td class="automated-stats">1</td>
+                                                <td class="automated-stats">3</td>
                                                 <td class="automated-stats"></td>
                                             </tr>
                                             </tbody>
@@ -481,11 +493,11 @@
                                                     </thead>
                                                     <tbody>
                                                     <tr>
-                                                        <td>7s</td>
-                                                        <td>7ms</td>
-                                                        <td>7s</td>
-                                                        <td>7s</td>
-                                                        <td>7s</td>
+                                                        <td>15s</td>
+                                                        <td>15ms</td>
+                                                        <td>2s</td>
+                                                        <td>8s</td>
+                                                        <td>15s</td>
                                                     </tr>
                                                     </tbody>
                                                 </table>
@@ -511,6 +523,7 @@
                                                 <tr class="scenario-result SUCCESS">
                                                     <td>
                                                             <a href="fc6c39ec319ad1cf4733a1e20dae22895e641d9fbf1a5c19d4200aa329877493.html">Buscar galletas cocosette</a>
+                                                               (3 examples)
                                                     </td>
                                                     <td>3</td>
                                                     <td> </td>
