@@ -14,7 +14,6 @@ public class CocosetteStepsDefs {
 
     @When("^aparezca la caja de busqueda ingresar \"([^\"]*)\"$")
     public void aparezcaLaCajaDeBusquedaIngresar(String find) {
-
         cocosettepage.inputSearch(find);
     }
 
